@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+
+.container{
+    background-color: gainsboro;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px  ;
+}
+.card{
+    background-color: white;
+    height: 40%;
+    width:30%;
+    border-radius: 10px;
+    box-shadow: box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+button{
+    width: 80%;
+    padding: 10px;
+    font-size: 1.2em;
+    border-radius: 10px;
+}
+p{
+    font-size: 1.2em;
+    text-align: center;
+    padding: 10px;
+    color: black;
+}
+#deposit{
+    background-color: lightblue;
+}
+#deposit:hover{
+    background-color: rgb(9, 116, 151);
+}
+#withdraw{
+    background-color: lightcoral;
+}
+#withdraw:hover{
+    background-color: rgb(139, 2, 2);
+}

@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+.box {
+    height: fit-content;
+    width: 60%;
+    padding: 10px;
+    background-color: bisque;
+    display: flex;
+    margin: 10px;
+    gap: 10px;
+    align-items:center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.inner{
+    background-color: blue;
+    height: 80px;
+    
+    width: 80px;
+    border: 1px solid black;
+}
+#box1{
+    background-color: red;
+
+}
+#box2{
+    background-color: green;
+}
+#box3{
+    background-color: yellow;
+}

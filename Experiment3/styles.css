@@ -1,0 +1,26 @@
+.grid-box{
+    height:100vh;
+    background-color: black;
+    display:grid;
+    grid-template-columns: 20% 50% 30%;
+    grid-template-rows: 20% 50% 30%;
+    gap: 2px;
+}
+
+#two{
+    /*grid-row-start: 2;
+    grid-row-end: 3;*/
+    grid-column-end: 3;
+    grid-column-start: 2;
+    background: rgb(222, 10, 10);
+    color: black;
+}
+
+.grid-box > div {
+    border: 2px solid #fff;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
