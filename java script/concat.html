@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button>Press Me</button>
+    <div id="greeting"></div>
+    <script>
+        const button = document.querySelector("button");
+        function greet(){
+            const name = prompt("what is your name");
+            const greeting = document.querySelector("#greeting");
+            greeting.textContent = `hello ${name}, nice to see you!`;
+        }
+        button.addEventListener("click", greet);
+    </script>
+</body>
+</html>

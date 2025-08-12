@@ -1,0 +1,44 @@
+/* Bordered box for main content */
+.container {
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 24px;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    max-width: 500px;
+    margin: 40px auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    height: 100vh;
+}
+textarea{
+    padding: 12px;
+}
+/* .textarea-group {
+  width: 100%;
+  max-width: 400px;  or any value 
+  margin: 0 auto;
+}
+
+.textarea-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.textarea-group .counter {
+  display: block;
+  width: 100%;
+  text-align: right;
+  margin-top: 8px;
+} */
+
+/* .container{
+    display: flex;
+    padding: 10px;
+    border-color: black;
+} */
